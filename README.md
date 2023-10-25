@@ -38,9 +38,9 @@ The script supports the following command-line arguments for customization:
 Examples:
 
 ```bash
-python kmeans_auto_k.py --n_samples 2000 --dataset moon --centers 4
+python main.py --n_samples 2000 --dataset moon --centers 4
 ```
 
 ```bash
-python kmeans_auto_k.py --n_samples 1000 --cluster_std 0.35
+python main.py --n_samples 1000 --cluster_std 0.35
 ```
